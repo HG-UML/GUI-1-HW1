@@ -1,0 +1,84 @@
+/*
+File: style.css
+GUI Assignment: Creating Your First Web Page
+Hannah Guillen, UMass Lowell Computer Science, hguillen@cs.uml.edu
+
+Copyright (c) 2022 by Hannah Guillen. All rights reserved. May be freely
+copied or excerpted for educational purposes with credit to the author.
+updated by HG on September 13, 2022 at 11:08 PM
+*/
+
+body{
+  background-color:#F0F8FF;
+  color:black;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size:18px;
+  font-weight:normal;
+
+  line-height: 1.2em;
+  margin:0;
+}
+
+/* This code will change the margin and padding for all elements.
+*{
+  margin:0;
+  padding:0;
+}
+*/
+
+.container{
+  width:80%;
+  margin:auto;
+  /*text-align: center; */
+}
+
+.heading{
+  text-align: center;
+}
+.heading h4{
+  font-style: italic;
+}
+
+.box-1{
+  background-color: #D3D3D3;
+  color:black;
+
+  border: 5px #1C87C9 solid;
+  border-width: 3px;
+  border-radius: 15px;
+
+  padding:20px;
+  margin:20px;
+  text-align: center;
+}
+
+/* This class centers image when called */
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.table {
+  right: 100px;
+  width: 350px;
+  border: 3px solid #1C87C9;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.button {
+  background-color: #1C87C9;
+  color: #F0F8FF;
+  padding: 20px 34px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  top: 11%;
+  left: 55%;
+}
